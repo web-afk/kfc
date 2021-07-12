@@ -1,0 +1,102 @@
+.sides{
+    width: 100%;
+    height: 120vh;
+    @include centrar();
+    .all{
+        @include cien();
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        .leftside,
+        .rightside{
+            width: 49%;
+            height: 100%;
+        }
+        .leftside{
+            .img{
+                width: 100%;
+                img{
+                    width: 100%;
+                    height: auto;
+                    margin-top: .5rem;
+                    border: 2px solid $back-orange;
+                    cursor: pointer;
+                    opacity: .9;
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+            }
+            .i{
+                width: 100%;
+                margin-top: 1rem;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                span{
+                    display: inline-block;
+                    padding: .5rem .9rem;
+                    color: $color-white;
+                    background: $back-red;
+                    border-radius: .5rem;
+                    font-size: 1.3rem;
+                    cursor: pointer;
+                    border: 2px solid $color-orange;
+                    &.actual{
+                    background: $back-white;
+                    color: $color-red;
+                    }
+                }
+                i{
+                    font-size: 2rem;
+                    color: $color-red;
+                    cursor: pointer;
+                }
+            }
+        }
+        .rightside{
+            .card{
+                margin-top: 2.8rem;
+                width: 100%;
+                height: 20%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                img{
+                    cursor: pointer;
+                    height: 100%;
+                    width: auto;
+                    border: 2px solid $back-red;
+                    border-radius: 1rem;
+                    opacity: .9;
+                    &:hover{
+                        opacity: 1;
+                    }
+                }
+                .text{
+                    width: 65%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    .i{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        font-size: 1.5rem;
+                        margin-bottom: 1.5rem;
+                        .g{
+                            cursor: pointer;
+                            color: green
+                        }
+                        .r{
+                            color: red;
+                            cursor: pointer;
+                            margin-left: 1rem;
+                        }
+                    }
+                }
+            }
+        }
+
+    }
+}
