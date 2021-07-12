@@ -199,4 +199,49 @@ main span {
   margin-left: 1rem;
 }
 
+.back {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  margin-top: 6rem;
+}
+.back .text,
+.back .image {
+  width: 50%;
+  height: 100%;
+}
+.back .text {
+  background: #540000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+.back .text h3,
+.back .text p,
+.back .text span {
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5%;
+}
+.back .text h3 {
+  font-size: 2rem;
+}
+.back .text p {
+  text-align: justify;
+  line-height: 2;
+  font-weight: bold;
+}
+.back .text p .price {
+  color: #A8BDD8;
+  margin-left: 0;
+}
+.back .text span.btn {
+  text-align: center;
+}
+.back .image {
+  background: url("../../../img/bigone.webp");
+  background-position: center;
+  background-size: cover;
+}
+
 /*# sourceMappingURL=styles.css.map */
