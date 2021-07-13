@@ -1,10 +1,23 @@
 /*variables*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 /*components*/
-.price {
-  color: #540000;
+h2 {
   font-size: 2rem;
+  color: #540000;
   font-weight: bold;
+}
+
+h3 {
+  color: #EE2E2B;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.price {
+  font-size: 1.3rem;
+  color: #540000;
+  font-weight: bolder;
+  margin-left: 1rem;
 }
 
 .btn {
@@ -181,6 +194,69 @@ main .text .btn {
   width: auto;
   border: 4px solid #EE2E2B;
   border-radius: 2rem;
+}
+
+.cards {
+  width: 100%;
+  height: 190vh;
+  margin-top: 15%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .all {
+  width: 82%;
+  height: 98%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.cards .all .card {
+  width: calc(29% + 2rem + 4px);
+  height: calc(45% + 2rem + 4px);
+  border: 4px dashed #540000;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+.cards .all .card img {
+  width: 100%;
+  height: auto;
+  border: 4px solid #540000;
+  border-radius: 2.5rem;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.cards .all .card img:hover {
+  opacity: 1;
+}
+.cards .all .card .text .title {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards .all .card .text p {
+  text-align: justify;
+  line-height: 2;
+}
+.cards .all .card .text .icon {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.cards .all .card .text .icon .i i {
+  cursor: pointer;
+  margin: 0 1rem;
+}
+.cards .all .card .text .icon .i i.r {
+  color: red;
+  font-size: 1.8rem;
+}
+.cards .all .card .text .icon .i i.g {
+  color: green;
+  font-size: 1.8rem;
 }
 
 /*# sourceMappingURL=styles.css.map */

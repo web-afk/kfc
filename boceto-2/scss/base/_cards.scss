@@ -1,0 +1,66 @@
+.cards{
+    width: 100%;
+    height: 190vh;
+    margin-top: 15%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    .all{
+        width: 82%;
+        height: 98%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        .card{
+            width: calc(29% + 2rem + 4px);
+            height: calc(45% + 2rem + 4px);
+            border: 4px dashed $back-red;
+            padding: 1rem;
+            border-radius: 1rem;
+            img{
+                width: 100%;
+                height: auto;
+                border: 4px solid $back-red;
+                border-radius: 2.5rem;
+                opacity: .8;
+                cursor: pointer;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+            .text{
+                .title{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                p{
+                    text-align: justify;
+                    line-height: 2;
+                }
+                .icon{
+                    width: 100%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .i{
+                        i{
+                            cursor: pointer;
+                            margin:0 1rem;
+                            &.r{
+                                color: red;
+                                font-size: 1.8rem;
+                            }
+                            &.g{
+                                color: green;
+                                font-size: 1.8rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
