@@ -15,7 +15,7 @@
             width: 29%;
             cursor: pointer;
             height: 95%;
-            background: $back-black;
+            background: linear-gradient(45deg,$back-black,#2e2e2e);
             color: $color-grayblue;
             display: flex;
             flex-direction: column;
@@ -54,7 +54,7 @@
                 }
             }
             &.premium{
-                background: $back-red;
+                background:linear-gradient(45deg,#540000,#970000);
                 width: 32%;
                 height: 100%;
             }
