@@ -259,4 +259,26 @@ main .text .btn {
   font-size: 1.8rem;
 }
 
+.photos {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.photos .imgs {
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.photos .imgs img {
+  height: 100%;
+  width: auto;
+  outline: 5px solid #EE2E2B;
+  outline-offset: 0.9rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
