@@ -12,13 +12,13 @@ header{
     .nav1{
         width: 100%;
         height: 25%;
-        background: $back-gray;
+        background: $back-red;
         nav{
             @include cien();
             display: flex;
             justify-content: space-between;
             align-items: center;
-            color: $color-red;
+            color: $color-white;
             .text,
             .redes{
                 width: 30%;

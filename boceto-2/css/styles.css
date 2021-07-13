@@ -1,6 +1,31 @@
 /*variables*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 /*components*/
+.price {
+  color: #540000;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.btn {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  background: #540000;
+  color: #fff;
+  border: 2px solid #EE2E2B;
+  border-radius: 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+}
+.btn:hover {
+  background: #fff;
+  color: #540000;
+}
+.btn:active {
+  transform: scale(0.99);
+}
+
 /*mixin*/
 /*base/elements*/
 * {
@@ -34,7 +59,7 @@ header .nav2 {
 header .nav1 {
   width: 100%;
   height: 25%;
-  background: #717672;
+  background: #540000;
 }
 header .nav1 nav {
   height: 100%;
@@ -42,7 +67,7 @@ header .nav1 nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  color: #540000;
+  color: #fff;
 }
 header .nav1 nav .text,
 header .nav1 nav .redes {
@@ -108,6 +133,54 @@ header .nav2 nav ul li a {
 }
 header .nav2 nav ul li a:hover {
   text-decoration: underline;
+}
+
+main {
+  width: 100%;
+  height: 70vh;
+  background: url("../../../img/fondo.png"), rgba(0, 0, 0, 0.5);
+  background-position: center;
+  background-size: cover;
+  border: 5px solid #540000;
+  background-blend-mode: multiply;
+  display: flex;
+  flex-direction: column;
+}
+main .text {
+  width: 80%;
+  height: 50%;
+  margin: 6% auto 0 auto;
+  color: #fff;
+}
+main .text h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+main .text p {
+  font-size: 1.2rem;
+  text-align: center;
+  word-spacing: 5px;
+}
+main .text .btn {
+  font-size: 1.5rem;
+  margin-left: 37%;
+}
+
+.imagenes {
+  width: 80%;
+  height: 35vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: -12% auto;
+  position: relative;
+}
+.imagenes img {
+  height: 100%;
+  width: auto;
+  border: 4px solid #EE2E2B;
+  border-radius: 2rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
