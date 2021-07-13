@@ -244,4 +244,93 @@ main span {
   background-size: cover;
 }
 
+.membre {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.membre .cards {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.membre .cards article {
+  width: 29%;
+  cursor: pointer;
+  height: 95%;
+  background: #030303;
+  color: #A8BDD8;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 3rem;
+  box-shadow: 13px 13px 13px #717672;
+}
+.membre .cards article h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 2.1rem;
+}
+.membre .cards article .price {
+  color: #EE2E2B;
+}
+.membre .cards article .lista {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+.membre .cards article .lista span {
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 1.5rem;
+}
+.membre .cards article .lista span i {
+  font-size: 2rem;
+}
+.membre .cards article .lista span i.g {
+  color: greenyellow;
+}
+.membre .cards article .lista span i.r {
+  color: crimson;
+}
+.membre .cards article.premium {
+  background: #540000;
+  width: 32%;
+  height: 100%;
+}
+
+footer {
+  margin-top: 2rem;
+  width: 100%;
+  height: 20vh;
+  background: #540000;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+footer a {
+  color: #fff;
+}
+footer a i {
+  margin: 0 2rem;
+  font-size: 3.3rem;
+}
+footer a:hover {
+  color: #EE2E2B;
+}
+footer span {
+  font-size: 1.5rem;
+}
+
 /*# sourceMappingURL=styles.css.map */
