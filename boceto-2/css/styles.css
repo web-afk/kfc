@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*variables*/
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
 /*components*/
@@ -261,24 +262,134 @@ main .text .btn {
 
 .photos {
   width: 100%;
-  height: 40vh;
+  height: 60vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
+  background: #EE2E2B;
+  border: 9px solid #540000;
+  margin-top: 3rem;
+}
+.photos h2 {
+  font-size: 2.5rem;
 }
 .photos .imgs {
   width: 80%;
-  height: 80%;
+  height: 75%;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 .photos .imgs img {
-  height: 100%;
+  height: 70%;
   width: auto;
-  outline: 5px solid #EE2E2B;
+  outline: 7px solid #540000;
   outline-offset: 0.9rem;
+}
+
+.reseñas {
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.reseñas h2 {
+  font-size: 2.5rem;
+}
+.reseñas .all {
+  width: 90%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.reseñas .all .rese {
+  width: 29%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.reseñas .all .rese img {
+  width: 50%;
+  height: auto;
+  border-radius: 50%;
+  border: 2px solid #540000;
+}
+.reseñas .all .rese h3 {
+  text-align: center;
+}
+.reseñas .all .rese p {
+  font-style: italic;
+  font-weight: bolder;
+}
+.reseñas .all .rese span {
+  color: #717672;
+}
+
+footer {
+  margin-top: 3rem;
+  width: 100%;
+  height: 40vh;
+  background: #540000;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+footer .icon,
+footer .text {
+  width: 40%;
+  height: 100%;
+}
+footer .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+footer .icon .iconos,
+footer .icon .textos {
+  width: 100%;
+  height: 50%;
+}
+footer .icon .iconos i {
+  font-size: 3rem;
+  color: #fff;
+  margin: 1rem 1rem 0 1rem;
+}
+footer .icon .iconos i:hover {
+  color: #EE2E2B;
+}
+footer .icon .textos {
+  font-size: 1.5rem;
+  margin-top: 2rem;
+}
+footer .icon .textos a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0 10px;
+}
+footer .icon .textos a:hover {
+  text-decoration: underline;
+}
+footer .icon span {
+  margin-left: -27%;
+}
+footer .text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+footer .text .card {
+  width: 49%;
+  height: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
 }
 
 /*# sourceMappingURL=styles.css.map */

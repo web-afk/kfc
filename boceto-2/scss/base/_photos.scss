@@ -1,20 +1,26 @@
 .photos{
     width: 100%;
-    height: 40vh;
+    height: 60vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
+    background: $back-orange;
+    border: 9px solid $back-red;
+    margin-top: 3rem;
+    h2{
+        font-size: 2.5rem;
+    }
     .imgs{
         width: 80%;
-        height: 80%;
+        height: 75%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         img{
-            height: 100%;
+            height: 70%;
             width: auto;
-            outline: 5px solid $back-orange;
+            outline: 7px solid $back-red;
             outline-offset: 0.9rem;
         }
     }

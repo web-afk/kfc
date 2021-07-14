@@ -1,0 +1,62 @@
+footer{
+    margin-top: 3rem;
+    width: 100%;
+    height: 40vh;
+    background: $back-red;
+    color: $color-white;
+    display: flex;
+    justify-content: center;
+    .icon,
+    .text{
+        width: 40%;
+        height: 100%;
+    }
+    .icon{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .iconos,
+        .textos{
+            width: 100%;
+            height: 50%;
+        }
+        .iconos{
+            i{
+                font-size: 3rem;
+                color: $color-white;
+                margin: 1rem 1rem 0 1rem;
+                &:hover{
+                    color: $color-orange;
+                }
+            }
+        }
+        .textos{
+            font-size: 1.5rem;
+            margin-top: 2rem;
+            a{
+                text-decoration: none;
+                color: inherit;
+                margin: 0 10px;
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+        span{
+            margin-left:-27%;
+        }
+    }
+    .text{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .card{
+            width: 49%;
+            height: 49%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
+    }
+}
